@@ -5,3 +5,6 @@ body {
 div {
     display: block;
 }
+.mobile-navbar {
+    display: none;
+}

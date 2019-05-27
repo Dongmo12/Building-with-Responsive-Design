@@ -1,3 +1,16 @@
-body {
-    background: red;
+.mobile-navbar {
+    width: 100%;
+    background: white;
+    display: block;
+}
+.nav-logo {
+    width: 106px;
+    height: 48px;
+}
+.nav-logo a {
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    display: block;
+    height: 48px;
+    padding: 16px 20px;
+    width: 106px;
 }
