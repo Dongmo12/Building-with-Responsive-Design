@@ -7,3 +7,75 @@ div {
 .mobile-navbar {
     display: none;
 }
+.footer{
+    display: block;
+    text-align: center;    /* position: relative; */
+     
+   
+}
+
+.footer-legal span {
+    display: block;
+
+}
+.footer-legal{
+    background: #000;
+    color: #aaa;
+    font-size: 13px;
+    padding: 2.5em 0;
+}
+ 
+ 
+.footer-legal-logoStackPath, .footer-legal-logoTNW {
+    display: inline-block;
+    height: 9px;
+    margin-right: 1px;
+    vertical-align: baseline;
+}
+.icon--facebook--light{ 
+    background-position: -272px -272px;
+}
+.icon{
+    display: block;
+    background: transparent url(../img/icons-sprite.svg?1520429355783) no-repeat;
+    /* background-size: 1296px 1296px; */
+    background-position: 1296px 1296px;
+    width: 16px;
+    height: 16px;
+}
+
+
+.top-footer i {
+	background-color: #333;
+	color: #fff;
+	padding: 15px;
+	margin: 0px 0.3%;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	cursor: pointer;
+	border: 1px solid #333;
+}
+.top-footer {
+	background-color: #131313;
+	padding: 30px;
+	height: 160px;
+	margin-bottom: -13px;
+	padding-bottom: 0px;
+}
+.footer-wraper {
+	padding-top: 30px;
+	color: #aaa;
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+}
+
+.footer-wraper span {
+	margin: 0px 5px;
+	cursor: pointer;
+}
+
+.footer-wraper span:hover {
+	color: #fff;
+}
