@@ -1,79 +1,66 @@
-body {
-    margin: 0;
-}
-div {
-    display: block;
-}
 .mobile-navbar {
-    display: none;
+    width: 100%;
+    background: white;
+    display: block;
+    position: fixed;
+    height: 48px;
+    top: 0;
+    -webkit-box-shadow: 0px 0px 50px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 50px -15px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 50px -15px rgba(0,0,0,0.75);
 }
-.footer{
+.nav-logo {
+    width: 66px;
+    height: 48px;
+    display: inline-block;
+}
+.nav-logo a {
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
     display: block;
     text-align: center;    /* position: relative; */
-}
-
-.footer-legal span {
-    display: block;
-
-}
-.footer-legal{
-    background: #000;
-    color: #aaa;
-    font-size: 13px;
-    padding: 2.5em 0;
-}
- 
- 
-.footer-legal-logoStackPath, .footer-legal-logoTNW {
-    display: inline-block;
-    height: 9px;
-    margin-right: 1px;
-    vertical-align: baseline;
-}
-.icon--facebook--light{ 
-    background-position: -272px -272px;
-}
-.icon{
-    display: block;
-    background: transparent url(../img/icons-sprite.svg?1520429355783) no-repeat;
-    /* background-size: 1296px 1296px; */
-    background-position: 1296px 1296px;
-    width: 16px;
     height: 16px;
+    padding: 16px 20px;
+    width: 66px;
+}
+.nav-logo a img {
+    width: 66px;
 }
 
-
-.top-footer i {
-	background-color: #333;
-	color: #fff;
-	padding: 15px;
-	margin: 0px 0.3%;
-	border-radius: 50%;
-	width: 45px;
-	height: 45px;
-	cursor: pointer;
-	border: 1px solid #333;
+.main{
+    color: white;
 }
-.top-footer {
-	background-color: #131313;
-	padding: 30px;
-	height: 160px;
-	margin-bottom: -13px;
-	padding-bottom: 0px;
+.nav-icons {
+    display: block;
+    float: right;
+    margin: 0;
+    list-style-type: none;
 }
-.footer-wraper {
-	padding-top: 30px;
-	color: #aaa;
-	font-size: 12px;
-	width: 100%;
-	text-align: center;
+.nav-icons li {
+    width: 48px;
+    height: 48px;
+    border-left: rgb(233, 233, 233) 1px solid;
+    display: inline-block;
 }
-
-.footer-wraper span {
-	margin: 0px 5px;
-	cursor: pointer;
+.nav-mob-toggle {
+    position: relative;
 }
-
-.footer-wraper span:hover {
-	color: #fff;
+.nav-mob-toggle span {
+    -webkit-transition: .4s;
+    transition: .4s;
+    background-color: #f42;
+    display: block;
+    height: 2px;
+    left: 14px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+.nav-mob-toggle span:first-child {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+}
+.nav-mob-toggle span:last-child {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
 }
