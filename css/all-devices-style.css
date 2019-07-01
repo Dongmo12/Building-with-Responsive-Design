@@ -168,3 +168,64 @@ body {
     padding: 10px 0;
     box-sizing: border-box;
   }
+  .funding h3 {
+    color: #ff4422;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .updates {
+    color: #ff4422;
+    font-size: 20px;
+  }
+  
+  .funding_heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .updates span {
+    border-right: 1px solid #ff4422;
+    padding: 0 10px;
+  }
+  
+  .updates span:last-child {
+    border: none;
+  }
+  
+  .funding_items {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .funding_items ul li {
+    list-style-type: none;
+  }
+  
+  .fund_item {
+    position: relative;
+    width: 270px;
+    box-sizing: border-box;
+  }
+  
+  .fund_partner {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background: #ff4422;
+    padding: 10px 0 10px 80px;
+  }
+  
+  .fund_amount {
+    background: #ffebe7;
+    padding: 10px 0 10px 90px;
+  }
+  .fund_amount p {
+    font-size: 12px;
+  }
+  .fund_capital {
+    background: #fffaf8;
+    padding: 15px;
+    box-sizing: border-box;
+  }
