@@ -86,3 +86,85 @@ body {
     top: 20px;
     color: white;
   }
+
+
+.bottom_end {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    color: white;
+    font-size: 60px;
+    line-height: 50px;
+    font-weight: bold;
+  }
+  .right_bottom_end {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+  }
+  
+  .right_bottom_end h5 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .right_highlight {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content: space-between;
+    margin-left: 5px;
+  }
+  .right_top {
+    position: relative;
+    background: linear-gradient(to top, black, transparent),
+      linear-gradient(160deg, white, transparent),
+      url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/TNW-Livestream-2019-hed-796x431.jpg)
+        no-repeat center;
+    height: 220px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+  }
+  
+  .right_bottom {
+    position: relative;
+    background: linear-gradient(to top, black, transparent),
+      linear-gradient(160deg, white, transparent),
+      url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/TNW-Livestream-2019-hed-796x431.jpg)
+        no-repeat center;
+    height: 220px;
+    box-sizing: border-box;
+  }
+  
+  .latest {
+    width: 100%;
+    margin: 100px auto;
+  }
+  .latest_img {
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  .latest h3 {
+    color: #ff4422;
+    font-weight: bold;
+  }
+  .latest_items {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    justify-content: space-between;
+  }
+  
+  .latest_item {
+    margin: 20px 0;
+  }
+  
+  .funding {
+    position: relative;
+    width: 100%;
+    margin: 20px auto 0 auto;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
