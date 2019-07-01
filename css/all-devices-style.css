@@ -372,3 +372,110 @@ body {
     color: #ff4422;
     font-weight: bold;
   }
+  .cheap h4 {
+    padding: 10px 0 5px 5px;
+    color: #ff4422;
+  }
+  
+  .cheap img {
+    position: absolute;
+    right: 0;
+    top: 5px;
+  }
+  
+  .deals {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .deals_data {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .deals_item {
+    margin-bottom: 40px;
+  }
+  
+  .deals_item h4 {
+    margin-bottom: 12px;
+  }
+  .deals_heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    color: #ff4422;
+  }
+  .deals_heading h3 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .img_deals {
+    background: url(assets/images/vpn.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 200px;
+    margin-bottom: 12px;
+  }
+  
+  .socials {
+    background: #131313;
+    color: white;
+    height: 150px;
+    margin-top: 70px;
+  }
+  .socials ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .socials ul li {
+    list-style-type: none;
+    margin-right: 20px;
+    line-height: 150px;
+  }
+  footer {
+    height: auto;
+    background: #000000;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 40px 5px;
+  }
+  
+  /* hover behaviour*/
+  
+  .img_deals:hover,
+  nav ul li:hover,
+  #top_menu ul li:hover {
+    cursor: pointer;
+  }
+  
+  .latest h3:hover {
+    cursor: pointer;
+    color: black;
+  }
+  
+  .deals_heading h3:hover,
+  .deals_heading p:hover {
+    cursor: pointer;
+    color: black;
+  }
+  
+  .deals_item h4:hover {
+    cursor: pointer;
+    color: #ff4422;
+  }
+  
+  #small_nav {
+    display: none;
+  }
+  
+  #small_nav img {
+    width: 100px;
+    height: 25px;
+    background: red;
+    padding: 10px;
+  }
