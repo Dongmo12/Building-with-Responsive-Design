@@ -610,3 +610,87 @@ body {
       text-align: center;
     }
   }
+  @media only screen and (max-width: 1690px) {
+    section {
+      width: 75%;
+      margin: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 1625px) {
+    section {
+      width: 75%;
+      margin: auto;
+    }
+  }
+  @media only screen and (max-width: 1544px) {
+    section {
+      width: 78%;
+      margin: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 1505px) {
+    section {
+      width: 80%;
+      margin: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 1418px) {
+    section {
+      width: 90%;
+      margin: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 1455px) {
+    section {
+      width: 87%;
+      margin: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 1305px) {
+    section {
+      width: 90%;
+      margin: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 1265px) {
+    section {
+      width: 94%;
+      margin: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 1210px) {
+    section {
+      width: 97%;
+      margin: auto;
+    }
+  }
+  @media only screen and (max-width: 1172px) {
+    section {
+      width: 98%;
+      margin: auto;
+    }
+  }
+  @media only screen and (max-width: 1160px) {
+    section {
+      width: 99%;
+      margin: auto;
+    }
+  }
+  @media only screen and (max-width: 1032px) {
+    section {
+      width: 100%;
+      margin: auto;
+    }
+  
+    .funding_heading {
+      display: flex;
+      flex-direction: column;
+    }
+  }
