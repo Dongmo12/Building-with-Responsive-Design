@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+  }
+  .flex {
+    display: flex;
+  }
+  #top_menu {
+    background: black;
+    color: white;
+    padding: 5px 10px;
+  }
+  #top_menu ul li {
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    margin-right: 10px;
+  }
+  
+  .main_content {
+  }
+  section {
+    width: 67%;
+    margin: auto;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 50px;
+    color: gray;
+    align-items: center;
+    background: white;
+  }
