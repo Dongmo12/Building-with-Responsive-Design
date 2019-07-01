@@ -353,8 +353,9 @@ nav ul:last-child {
   font-weight: bold;
   font-size: 30px;
 }
-.img_deals {
-  background: url(assets/images/vpn.jpg);
+.img_deal1 {
+  background: url(../images/sale_1_primary_image.jpg);
+  background-color: red;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -362,7 +363,76 @@ nav ul:last-child {
   height: 200px;
   margin-bottom: 12px;
 }
-
+.img_deal2 {
+  background: url(../images/sale_2_primary_image.jpg);
+  background-color: red;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 200px;
+  margin-bottom: 12px;
+}
+.img_deal3 {
+  background: url(../images/sale_3_primary_image.jpg);
+  background-color: red;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 200px;
+  margin-bottom: 12px;
+}
+.img_deal4 {
+  background: url(../images/sale_4_primary_image.jpg);
+  background-color: red;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 200px;
+  margin-bottom: 12px;
+}
+.img_deal5 {
+  background: url(../images/sale_5_primary_image.jpg);
+  background-color: red;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 200px;
+  margin-bottom: 12px;
+}
+.img_deal6 {
+  background: url(../images/sale_6_primary_image.jpg);
+  background-color: red;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 200px;
+  margin-bottom: 12px;
+}
+.img_deal7 {
+  background: url(../images/sale_7_primary_image.jpg);
+  background-color: red;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 200px;
+  margin-bottom: 12px;
+}
+.img_deal8 {
+  background: url(../images/sale_8_primary_image.jpg);
+  background-color: red;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 200px;
+  margin-bottom: 12px;
+}
 .socials {
   background: #131313;
   color: white;
