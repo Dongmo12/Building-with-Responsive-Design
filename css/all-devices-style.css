@@ -479,3 +479,134 @@ body {
     background: red;
     padding: 10px;
   }
+
+
+
+.right_small_nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right_small_nav .fas {
+    padding: 10px;
+    width: 30px;
+    border-left: 1px solid lightgray;
+  }
+  
+  .cheap p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  /* MEDIA QUERIES */
+  
+  @media only screen and (max-width: 767px) {
+    #top_menu,
+    nav,
+    .left_end,
+    .right_end {
+      display: none;
+    }
+    .highlight {
+      display: grid;
+      grid-template-columns: 100%;
+    }
+    .left_highlight {
+      height: 220px;
+      margin-bottom: 10px;
+      background: linear-gradient(to top, black, transparent),
+        url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/TNW-Livestream-2019-hed-796x431.jpg)
+          no-repeat center;
+    }
+  
+    .bottom_end {
+      font-size: 25px;
+    }
+  
+    .right_bottom_end h5 {
+      font-size: 22px;
+    }
+    #small_nav {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    section {
+      width: 96%;
+      margin-top: -40px;
+      margin-bottom: -80px;
+    }
+    .latest_items {
+      display: flex;
+      flex-direction: column;
+    }
+    .latest_items img {
+      width: 90px;
+      height: 80px;
+      float: left;
+      margin-right: 20px;
+    }
+  
+    .latest_items li {
+      width: 100%;
+    }
+    .funding {
+      margin-top: -100px;
+    }
+    .funding_items {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .fund_item {
+      width: 100%;
+    }
+  
+    .updates {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-bottom: -20px;
+    }
+  
+    .updates span {
+      border: none;
+      margin-top: 10px;
+    }
+  
+    .funding h3,
+    .updates {
+      position: static;
+    }
+  
+    .app_items {
+      width: 100%;
+    }
+    .img_back {
+      width: 100%;
+      height: 500px;
+    }
+    .cheap p {
+      width: 100%;
+    }
+  
+    .deals_data {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .img_deals {
+      width: 90px;
+      height: 80px;
+      float: left;
+      margin: -20px 10px -20px 5px;
+    }
+  
+    footer p {
+      width: 260px;
+      line-height: 30px;
+    }
+  
+    footer {
+      text-align: center;
+    }
+  }
