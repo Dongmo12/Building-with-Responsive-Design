@@ -40,3 +40,49 @@ body {
     align-items: center;
     background: white;
   }
+  nav ul:last-child {
+    border-left: 1px solid lightgray;
+    padding-left: 20px;
+  }
+  
+  #message {
+    background: #ffdd33;
+    padding: 5px 10px;
+  }
+  .highlight {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 99%;
+    margin: auto;
+    margin: 3px auto;
+    color: red;
+  }
+  .left_highlight {
+    position: relative;
+    height: 450px;
+    background: linear-gradient(to top, black, transparent),
+      linear-gradient(160deg, red, transparent),
+      url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/TNW-Livestream-2019-hed-796x431.jpg)
+        no-repeat center;
+    background-size: cover;
+    opacity: 0.9;
+  }
+  .left_end {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 35vw;
+  }
+  
+  .figcap {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+  }
+  .right_end {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+  }
