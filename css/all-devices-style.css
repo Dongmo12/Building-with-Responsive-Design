@@ -453,8 +453,8 @@ nav ul:last-child {
 	padding: 15px;
 	margin: 0px 0.3%;
 	border-radius: 50%;
-	width: 45px;
-	height: 45px;
+	width: 16px;
+	height: 16px;
 	cursor: pointer;
 	border: 1px solid #333;
 }
@@ -471,7 +471,7 @@ nav ul:last-child {
 .footer-text-wraper {
 	padding-top: 30px;
 	color: #aaa;
-	font-size: 22px;
+	font-size: 14px;
 	width: 100%;
 	text-align: center;
 }
@@ -486,7 +486,6 @@ nav ul:last-child {
 }
 
 .footer-bottom {
-	width: 100%;
 	height: 97px;
 	background-color: #000;
 	color: #aaa;
@@ -641,9 +640,6 @@ nav ul li:hover,
   .img_back {
     width: 100%;
     height: 500px;
-  }
-  .cheap p {
-    width: 100%;
   }
 
   .deals_data {
