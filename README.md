@@ -12,7 +12,4 @@ The demo page can be found [HERE](https://raw.githack.com/ibrolive/the-next-web-
 
 ## Designed by:
 <a href="https://github.com/ibrolive">Ibrahim Dauda</a> and <a href="https://github.com/Dongmo12">Armand Dongmo Tiakanang</a>
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE.md) file for details
+ 
